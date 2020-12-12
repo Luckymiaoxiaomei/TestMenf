@@ -6,6 +6,7 @@ from Calcutor import calcu
 
 class Testcal:
 
+    # 类前运行一次
     def setup_class(self):
         print("计算开始")
         self.cal = calcu()
